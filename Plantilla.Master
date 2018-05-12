@@ -1,0 +1,439 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Plantilla.master.cs" Inherits="SS1P_200819214.Plantilla" %>
+
+<!DOCTYPE html>
+
+
+<%--<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title></title>
+    <link href="content/css/bootstrap.css" rel="stylesheet" type="text/css" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    
+    <div class="navbar navbar-inverse navbar-fixed-top">
+	<div class="container">
+		<button type="button"class="navbar-toggle" data-toggle="collapse" data-taget=".nav-collapse">
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+		</button>	
+		<a class="navbar-brand" href="#"> My tec bits </a>
+		<div class="nav-collapse collapse">
+			<ul class="nav navbar-nav">
+				<li class="active"><a href="#">Home</a></li>
+				<li><a href="#about">About</a></li>
+				<li><a href="#contact">Contact</a></li>
+			</ul>
+		</div>
+	</div>
+</div>			
+
+<div class="container" >
+	<asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+	</asp:ContentPlaceHolder>
+</div>
+<script src="Scripts/jquery-3.3.1.min.js"></script>
+<script src="Scripts/bootstrap.min.js"></script>
+</body>
+</html>
+    --%>
+
+
+<html lang="en">
+    
+    <head id="Head1" runat="server">
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>PROYECTO SEMINARIO SISTEMAS 1</title>
+        <link rel="shortcut icon" type="image/x-icon" href="Images/logo-icon.jpg"/>
+
+        <link href="Content/bootstrap.min.css" rel="stylesheet">
+        <link href="Content/bootstrap-theme.min.css" rel="stylesheet">
+
+        <link href="Content/owl.carousel.css" rel="stylesheet">
+        <link href="Content/owl.theme.default.min.css" rel="stylesheet">
+
+        <link href="Content/magnific-popup.css" rel="stylesheet">
+
+        <link href="Content/style.css" rel="stylesheet">
+        <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+
+    </head>
+    <body>
+        <div id="menu-item" class="menu-item hide-menu">
+            <div class="container">
+                <ul>
+                    <a href="#datos"><li>Datos Personales</li></a>
+                    <a href="#habilidades"><li>Habilidades</li></a>
+                    <a href="#experiencia"><li>Experiencia</li></a>
+                    <a href="#estudios"><li>Estudios</li></a>
+                    <a href="#frase"><li>Frase</li></a>
+                    <a href="#logros"><li>Logros</li></a>
+                    <a href="#recomendaciones"><li>Recomendaciones</li></a>
+                    <a href="#repositorio"><li>Repositorio</li></a>
+                </ul>
+            </div>
+        </div>
+        <div class="main">
+            <header class="bg-img header">
+                <nav class="navbar navbar-default navbar-ubutia">
+                    <div class="container">
+                        <div class="navigation-bar">
+                            <div class="row">
+                                <div class="col-xs-6">
+                                    <div class="logo">                                            
+                                    </div>
+                                </div>
+                                <div class="col-xs-6 text-right">
+                                    <div class="menu m">
+                                        <a href="#"><span class="ion-navicon _ion-android-menu"></span></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </nav>
+                <div class="container">
+                    <div class="row">
+                        <div class="intro-box">
+                            <div class="intro">
+                                <h1>Datos Personales</h1>                                
+                                <div class="col-sm-4">
+                                    <div class="intro">                               
+                                        <div class="ubutia-card-content">                                    
+                                            <p>
+                                                Estudiante de Ingenieria en Ciencias y Sistemas USAC
+                                            </p>
+                                        </div>
+                                        <div class="ubutia-card-content">                                    
+                                            <p>
+                                                Carlos Esteban Godínez Delgado
+                                            </p>
+                                        </div>
+                                    </div>
+                                 </div>
+                                <div class="col-sm-4">
+                                    <div class="ubutia-card">                                
+                                        <div class="ubutia-card-content">                                    
+                                            <p>
+                                                25 av. "B" 8-55 Paraiso II, Z. 18
+                                            </p>
+                                        </div>
+                                        <div class="ubutia-card-content">                                    
+                                            <p>
+                                                Celular: 54498834
+                                            </p>
+                                        </div>
+                                        <div class="ubutia-card-content">                                    
+                                            <p>
+                                                Tel.: 56628714
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-4">
+                                    <div class="ubutia-card">                                
+                                        <div class="ubutia-card-content">                                    
+                                            <p>
+                                                Edad: 28 años
+                                            </p>
+                                        </div>
+                                        <div class="ubutia-card-content">                                    
+                                            <p>
+                                                Email: car5night@gmail.com
+                                            </p>
+                                        </div>
+                                        <div class="ubutia-card-content">                                    
+                                            <p>
+                                                
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>                        
+                        </div>
+                    </div>
+                </div>
+            </header>
+            <section id="habilidades" class="about section">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-8 col-sm-offset-2">
+                            <h2 class="title">Habilidades</h2>
+                            <div class="col-sm-4">
+                                    <div class="ubutia-card">                                
+                                        <div class="ubutia-card-content">                                    
+                                            <p>
+                                                Analizar
+                                            </p>
+                                        </div>
+                                        <div class="ubutia-card-content">                                    
+                                            <p>
+                                                Comprender
+                                            </p>
+                                        </div>                                        
+                                    </div>
+                            </div>
+                            <div class="col-sm-4">
+                                    <div class="ubutia-card">                                
+                                        <div class="ubutia-card-content">                                    
+                                            <p>
+                                                Actitud
+                                            </p>
+                                        </div>
+                                        <div class="ubutia-card-content">                                    
+                                            <p>
+                                                Dedicacion
+                                            </p>
+                                        </div>                                        
+                                    </div>
+                            </div>
+                            <div class="col-sm-4">
+                                    <div class="ubutia-card">                                
+                                        <div class="ubutia-card-content">                                    
+                                            <p>
+                                                Persistencia
+                                            </p>
+                                        </div>
+                                        <div class="ubutia-card-content">                                    
+                                            <p>
+                                                Esfuerzo
+                                            </p>
+                                        </div>                                        
+                                    </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="experiencia" class="purpose section">
+                <div class="container">
+                    <h2 class="title">Experiencia</h2>
+                    <h2 class="title">Icon Americas S.A.(Actualmente Ericsson)</h2>
+                    <div class="row">
+                        <div class="col-sm-4">
+                            <div class="ubutia-card">
+                                <div class="ubutia-card-header">
+                                    <div class="card-icon">
+                                        <span class="graphic-design" aria-hidden="true"></span>
+                                    </div>
+                                </div>
+                                <div class="ubutia-card-content">
+                                    <h3>Diseño de BD</h3>
+                                    <p>
+                                       
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-4">
+                            <div class="ubutia-card">
+                                <div class="ubutia-card-header">
+                                    <div class="card-icon">
+                                        <span class="webdevelopment" aria-hidden="true"></span>
+                                    </div>
+                                </div>
+                                <div class="ubutia-card-content">
+                                    <h3>Desarrollo Web</h3>
+                                    <p>
+                                        
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-4">
+                            <div class="ubutia-card">
+                                <div class="ubutia-card-header">
+                                    <div class="card-icon">
+                                        <span class="printing" aria-hidden="true"></span>
+                                    </div>
+                                </div>
+                                <div class="ubutia-card-content">
+                                    <h3>Soporte Aplicaciones GT</h3>
+                                    <p>
+                                        
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="estudios" class="expert">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-sm-6 bg-img">
+                            <div></div>
+                        </div>
+                        <div class="col-sm-5 section">
+                            <h2 class="title">Estudiante EScuela Ciencias y Sistemas</h2>
+                            <div id="expert-slider" class="owl-carousel">
+                                <div class="item">
+                                    <p>
+                                       Cursando actualmente el 4to. año de la Carrera de Ciencias y Sistemas
+                                    </p>
+                                </div>
+                                <div class="item">
+                                    <p>
+                                         
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            
+            <section id="frase"   class="ubutia-quote section bg-img">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <img class="quote" src="Images/quote.png">
+                           <p>
+                               La diferencia entre ganar y perder a menudo consiste en no abandonar
+                           </p>
+                           <p class="author">Walt Disney</p>
+                           <img src="Images/mouse.png">
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="logros" class="work section">
+                <div class="container">
+                    <h2 class="title">Logros</h2>
+                    <div id="workstation-slider" class="owl-carousel">
+                        <div class="item">
+                            <div class="ubutia-card">
+                                <div class="ubutia-card-header">
+                                    <img class="img-responsive" src="Images/4.jpg">
+                                </div>
+                                <div class="ubutia-card-content">
+                                    <h3>Obtención Beca Escolar</h3>
+                                    <p>
+                                        
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="ubutia-card">
+                                <div class="ubutia-card-header">
+                                    <img class="img-responsive" src="Images/5.jpg">
+                                </div>
+                                <div class="ubutia-card-content">
+                                    <h3>Oportunidad Trabajar Extranjero(El Salvador)</h3>
+                                    <p>
+                                        
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="ubutia-card">
+                                <div class="ubutia-card-header">
+                                    <img class="img-responsive" src="Images/6.jpg">
+                                </div>
+                                <div class="ubutia-card-content">
+                                    <h3>Oportunidad de estudiar en el interior por medio de beca</h3>
+                                    <p>
+                                        
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="ubutia-card">
+                                <div class="ubutia-card-header">
+                                    <img class="img-responsive" src="Images/4.jpg">
+                                </div>
+                                <div class="ubutia-card-content">
+                                    <h3>Creative geeks</h3>
+                                    <p>
+                                       Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consetetur,adipisivelit, sed quia non numquam eius modi tempora incidun.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="ubutia-card">
+                                <div class="ubutia-card-header">
+                                    <img class="img-responsive" src="Images/5.jpg">
+                                </div>
+                                <div class="ubutia-card-content">
+                                    <h3>Creative freaks</h3>
+                                    <p>
+                                      Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consetetur,adipisivelit, sed quia non numquam eius modi tempora incidun.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="ubutia-card">
+                                <div class="ubutia-card-header">
+                                    <img class="img-responsive" src="Images/6.jpg">
+                                </div>
+                                <div class="ubutia-card-content">
+                                    <h3>Creative nerds</h3>
+                                    <p>
+                                       Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consetetur,adipisivelit, sed quia non numquam eius modi tempora incidun.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="recomendaciones" class="work section">
+                <div class="container">
+                    <h2 class="title">recomendaciones</h2>
+                    <div id="Div" class="owl-carouse">
+                        <div class="item">
+                            <div class="ubutia-card">
+                                <div class="ubutia-card-header">
+                                    
+                                </div>
+                                <div class="ubutia-card-content">
+                                    
+                                    <p>
+                                        
+                                    </p>
+                                </div>
+                                <textarea name="comentarios" rows="10" cols="40">Escribe aquí tus recomendaciones</textarea>
+                                <p>
+                                        
+                                    </p>
+                                <input type="button" value="Guardar recomendacion">
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+            </section>
+   
+   
+            <footer class="footer">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <p>Diseñado <font class="logo-icon"></font> por <a href="a">Carlos Godinez</a></p>
+                            <p>Repositorio Github <font class="logo-icon"></font> Presionar en el enlace: <a href="https://github.com/carr5night/seminario1.git">Seminario 1</a></p>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+        </div>
+
+        <script src="js/jquery-3.1.1.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/owl.carousel.min.js"></script>
+        <script src="js/jquery.magnific-popup.js"></script>
+        <script src="js/script.js"></script>
+    </body>
+</html>

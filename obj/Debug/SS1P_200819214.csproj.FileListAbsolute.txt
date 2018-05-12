@@ -1,0 +1,5 @@
+c:\users\carzizou\documents\visual studio 2012\Projects\SS1P_200819214\SS1P_200819214\bin\SS1P_200819214.dll
+c:\users\carzizou\documents\visual studio 2012\Projects\SS1P_200819214\SS1P_200819214\bin\SS1P_200819214.pdb
+c:\users\carzizou\documents\visual studio 2012\Projects\SS1P_200819214\SS1P_200819214\obj\Debug\SS1P_200819214.dll
+c:\users\carzizou\documents\visual studio 2012\Projects\SS1P_200819214\SS1P_200819214\obj\Debug\SS1P_200819214.pdb
+C:\Users\CARZIZOU\documents\visual studio 2012\Projects\SS1P_200819214\SS1P_200819214\obj\Debug\SS1P_200819214.csprojResolveAssemblyReference.cache
